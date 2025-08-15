@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>IFM-sis</title>
+    <!-- favicon -->
+    <link
+      rel="icon"
+      href="./images/favicon.gif"
+      type="image/gif"
+      sizes="50x50"
+    />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="./fontawesome-free-5.7.2-web 2/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.7.2-web 2/css/fontawesome.css"
+    />
+    <!-- custom style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <img src="./images/logo2.gif" alt="ifm-logo" />
+      <h1>The Institute of Finance Management</h1>
+      <h3>Student Information System-sis</h3>
+    </header>
+    <!-- end of header -->
+    <!-- sidebar -->
+    <div class="sidebar">
+      <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a href="profile.html"><i class="fa fa-fw fa-user"></i> Profile</a>
+      <a href="results.html"><i class="fas fa-atlas"></i> Results</a>
+      <a href="#"><i class="fas fa-book"></i> Modules</a>
+      <a href="payments.html"><i class="far fa-credit-card"></i> Payments</a>
+      <a class="active" href=" #submitfield.html"
+        ><i class="fa fa-plus-square"></i> Submit Field</a
+      >
+      <a class="btn" href="#"><i class="fa fa-power-off"></i> Signout</a>
+    </div>
+
+    <!-- end of sidebar -->
+
+    <!-- contents -->
+
+    <div class="contents">
+      <h2>My Field >> Edit Field Information</h2>
+      <h5 style="color: red">
+        PLEASE USE CAPITAL LETTERS ONLY AND MAKE SURE THAT THE DISTRICT INSERTED
+        IS WITHIN THE REGION SELECTED IF YOU UNDERTAKE PROJECT FILL 'PROJECT' IN
+        THE ORGANIZATION NAME FIELD
+      </h5>
+
+      <form>
+        <label>
+          Registration No:
+          <input
+            name="reg_no"
+            type="text"
+            id="regno"
+            value="IMC/BIT/19/12927"
+            disabled
+          />
+          <br />
+        </label>
+        <label>
+          Full Name:
+          <input
+            name="full_name"
+            type="text"
+            id="full_name"
+            value="Nancy Silas"
+            disabled
+          /><br />
+        </label>
+        <label>
+          Date of Birth:
+          <input
+            name="dob"
+            type="text"
+            id="dob"
+            value="1955/01/01"
+            disabled
+          /><br />
+        </label>
+        <label>
+          Organisation Name/Project:
+          <input type="text" name="organization" value="" /><span
+            style="color: red;"
+          >
+            required*</span
+          ><br />
+        </label>
+        <label>
+          Region:
+          <select name="Region">
+            <option value="">Select Region</option>
+            <option value="ARUSHA">ARUSHA</option>
+            <option value="DAR ES SALAAM">DAR-ES-SALAAM</option>
+            <option value="DODOMA">DODOMA</option>
+            <option value="GEITA">GEITA</option>
+            <option value="IRINGA">IRINGA</option>
+            <option value="KAGERA">KAGERA</option>
+            <option value="KATAVI">KATAVI</option>
+            <option value="KIGOMA">KIGOMA</option>
+            <option value="KILIMANJARO">KILIMANJARO</option>
+            <option value="LINDI">LINDI</option>
+            <option value="MANYARA">MANYARA</option>
+            <option value="MARA">MARA</option>
+            <option value="MBEYA">MBEYA</option>
+            <option value="MOROGORO">MOROGORO</option>
+            <option value="MTWARA">MTWARA</option>
+            <option value="MWANZA">MWANZA</option>
+            <option value="NJOMBE">NJOMBE</option>
+            <option value="PEMBA KUSINI">PEMBA-KUSINI</option>
+            <option value="PEMBA KASKAZINI">PEMBA-KASKAZINI</option>
+            <option value="PWANI">PWANI</option>
+            <option value="RUKWA">RUKWA</option>
+            <option value="RUVUMA">RUVUMA</option>
+            <option value="SHINYANGA">SHINYANGA</option>
+            <option value="SIMIYU">SIMIYU</option>
+            <option value="SINGIDA">SINGIDA</option>
+            <option value="TABORA">TABORA</option>
+            <option value="TANGA">TANGA</option>
+            <option value="UNGUJA KUSINI">UNGUJA-MJINI</option>
+            <option value="UNGUJA KUSINI">UNGUJA-KUSINI</option>
+            <option value="UNGUJA KASKAZINI">UNGUJA-KASKAZINI</option>
+            <option value="UNGUJA VIJIJINI KASKAZINI"
+              >UNGUJA-VIJIJINI-KASKAZINI</option
+            > </select
+          ><span style="color: red;"> required*</span> <br />
+        </label>
+        <label>
+          District: <input type="text" name="district" value="" /><span
+            style="color: red;"
+          >
+            required*</span
+          ><br />
+        </label>
+        <label>
+          Mobile Phone:
+          <input
+            name="phone"
+            type="number"
+            id="phone"
+            value="0688207207"
+            disabled
+          /><br />
+        </label>
+        <label>
+          Email:
+          <input
+            name="email"
+            type="text"
+            id="email"
+            value="email@gmail.com"
+            disabled
+          /><br />
+        </label>
+        <label>
+          <input name="SaveBtn" type="submit" id="SaveBtn" value="Save" />
+          <input name="CncBtn" type="submit" id="CncBtn" value="Cancel" />
+        </label>
+      </form>
+    </div>
+    <!-- end of contents -->
+    <!-- footer -->
+    <footer>
+      &copy; The Institute of Finance Management 2020. All rights are reserved
+    </footer>
+    <!-- end of footer -->
+  </body>
+</html>
