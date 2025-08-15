@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" width="device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Student information system</title>
+</head>
+<body>
+	<div id="header col-12">
+
+			<table width="100%"  border="0" bgcolor="#003A75" class="col-12">
+		      <tr>
+		        <th width="30%" height="100"><span>THE INSTITUTE OF FINANCE MANAGEMENT </span></th>
+		        <th width="50%"><span>STUDENT INFORMATION SYSTEM </span></th>
+		        <th width="20%" align="right"><img src="logo.jpg" width="120" height="100"></th>
+		      </tr>
+		    </table>
+
+		</div>
+
+		<div class="small-header col-12">
+
+			<table border="1" class="table-header" align="center" cellpadding="0" cellspacing="5" width="95%" noshade thin>
+				<tr>
+					<th>Full name</th>
+					<th>Registration Number</th>
+					<th>academic year</th>
+					<th>Stream</th>
+					<th>Academic supervisor</th>
+					<th><a href="index.html">Sign out</a></th>
+
+				</tr>
+
+			</table>
+			
+		</div>
+		<hr size="3px" style="background-color:#003A75 " noshade>
+		<div class="aside col-3">
+
+			<ul>
+				<li><a href="home.html" >Home</a></li>
+				<li><a href="profile.html">Profile</a></li>
+				<li><a href="results.html">My Result</a></li>
+				<li><a href="payment.html">Fee Payment</a></li>
+				<li><a href="modules.html" active>BCS Stream/Modules</a></li>
+				<li><a href="field.html">Submit Field</a></li>
+				<li><a href="option.html">Option Modules</a></li>
+				<li><a href="communication.html">Communication</a></li>
+				<li><a href="password.html">Change Password</a></li>
+				<li><a href="comments.html">Opinions and Comments</a></li>
+
+			</ul>
+			
+		</div>
+		<div class="title">
+			<p><strong>Field</strong></p>
+		</div>
+		<div class=" comments col-9">
+			<h4><span style="color: red">PLEASE USE CAPITAL LETTERS ONLY AND MAKE SURE THAT THE DISTRICT INSERTED IS WITHIN THE REGION SELECTED
+	</span></h4>
+
+			
+
+			<form class="col-12">
+				<table cellpadding="4" cellspacing="1">
+					<tr>
+						<th><label><strong>Registration number</strong></label></th>
+						<td><input type="Text" name="regno" value="IMC/XXX/XX/0000" disabled></td>
+					</tr>
+					<tr>
+						<th><label><strong>Full Name</strong></label></th>
+						<td><input type="Text" name="fullname" value="STUDENT IFM" disabled></td>
+					</tr>
+					<tr>
+						<th><label><strong>Date of birth</strong></label></th>
+						<td><input type="Text" name="dob" value="01/01/0000" disabled></td>
+					</tr>
+					<tr>
+						<th><label><strong>Organisation</strong></label></th>
+						<td><input type="text" name="org" required ></td>
+					</tr>
+					<tr>
+                              <th><label>Region:</label></th>
+                              <td><label>
+                              <select name="region" >
+							  <option value=""></option>
+							  <option value="ARUSHA" selected="selected">ARUSHA</option>
+							  <option value="DAR ES SALAAM">DAR-ES-SALAAM</option>
+							  <option value="DODOMA">DODOMA</option>
+							  <option value="GEITA">GEITA</option>
+							  <option value="IRINGA">IRINGA</option>
+							  <option value="KAGERA">KAGERA</option>
+							  <option value="KATAVI">KATAVI</option>
+							  <option value="KIGOMA">KIGOMA</option>
+							  <option value="KILIMANJARO">KILIMANJARO</option>
+							  <option value="LINDI">LINDI</option>
+							  <option value="MANYARA">MANYARA</option>
+							  <option value="MARA">MARA</option>
+							  <option value="MBEYA">MBEYA</option>
+							  <option value="MOROGORO">MOROGORO</option>
+							  <option value="MTWARA">MTWARA</option>
+							  <option value="MWANZA">MWANZA</option>
+							  <option value="NJOMBE">NJOMBE</option>
+							  <option value="PEMBA KUSINI">PEMBA-KUSINI</option>
+							  <option value="PEMBA KASKAZINI">PEMBA-KASKAZINI</option>
+							  <option value="PWANI">PWANI</option>
+							  <option value="RUKWA">RUKWA</option>
+							  <option value="RUVUMA">RUVUMA</option>
+							  <option value="SHINYANGA">SHINYANGA</option>
+							  <option value="SIMIYU">SIMIYU</option>
+							  <option value="SINGIDA">SINGIDA</option>
+							  <option value="TABORA">TABORA</option>
+							  <option value="TANGA">TANGA</option>
+							  <option value="UNGUJA KUSINI">UNGUJA-MJINI</option>
+							  <option value="UNGUJA KUSINI">UNGUJA-KUSINI</option>
+							  <option value="UNGUJA KASKAZINI">UNGUJA-KASKAZINI</option>
+							  <option value="UNGUJA VIJIJINI KASKAZINI">UNGUJA-VIJIJINI-KASKAZINI</option>
+                              </select>
+                              <span style="color:red;">required
+                              *</span></label></td>
+                            </tr>
+                            <tr>
+                              <th >District:</th>
+                              <td>
+                              	<label>
+                                <input type="text" name="district">
+                                <span style="color:red">required*</span>
+                                </td>
+                            </tr>
+                            <tr>
+                              <th>Mobile Phone:</th>
+                              <td>
+                              	<label>
+                                <input name="mobile" type="text" value="+255 0000 00000" disabled="disabled">
+                              </label>
+                          </td>
+                            </tr>
+                            <tr>
+                              <th >Email:</th>
+                              <td><label>
+                                <input name="email" type="email" value="example@example.com" size="40" disabled="disabled">
+                              </label></td>
+                            </tr>
+                            <tr>
+                  
+                              <td>
+                              	<label>
+                                <input name="submit" type="submit" value="Save">
+                                <input name="Cancel" type="submit" value="Cancel">
+                              </label></td>
+                            </tr>
+				</table>
+				
+			</form>
+			
+		</div>
+
+</body>
+</html>

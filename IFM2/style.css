@@ -1,0 +1,168 @@
+#header{
+
+	background-color: #003A75;
+	border-radius: 7px;
+	position: absolute;
+	color: white;
+}
+.col-12 span{
+	color: white;
+}
+
+#header h1{
+
+	position: center;
+	border-top: 5px;
+	text-align: center;
+	text-transform:uppercase;
+	color: white;
+}
+.right-aside{
+
+	background-color: #003A75;
+	border-radius: 6px;
+	position: relative;
+	padding-left: 5px;
+	padding-bottom: 10px;
+
+}
+
+.aside{
+
+	background-color: #003A75;
+	color: white;
+	float: left;
+	border-radius: 7px;
+
+}
+.aside ul li{
+
+	text-overflow: hidden;
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+.aside ul a{
+
+	text-overflow:hidden;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	padding: 7px 7px 7px;
+	color: white;
+	font-weight: bold;
+	font-size: 17px;
+
+}
+
+.aside li a:hover{
+
+	background-color: lightgreen;
+	color: white;
+	border-radius: 5px;
+	font-size: 15px;
+	
+
+}
+.small-header{
+
+	background-color: white;
+	border-radius: 3px;
+
+}
+
+.table-header{
+
+	text-align: center;
+	vertical-align: center;
+	border-collapse:collapse;
+	border-bottom-width:thin;
+	border-bottom-style:double
+}
+.main{
+	position:right;
+	float: right;
+	border-radius: 7px;
+
+}
+.table-main{
+
+
+	text-align: center;
+	vertical-align: center;
+	border-collapse:collapse;
+	border-bottom-width:thin;
+	border-bottom-style:double
+	t
+}
+.title{
+
+	background-color: #003A75;
+	color: white;
+	font-size: 15px;
+	text-align: center;
+	padding: 1px;
+}
+
+body{
+
+	link:#ff0000;
+	alink:#00ff00;
+	vlink:#0000ff;
+}
+.comments{
+
+	padding: 5px;
+	text-align: center;
+}
+
+
+
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+
+/* hover background color*/
+ /* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+} 
+
+.main p, a, h1,h2,h3,h4,table{
+	padding: 12px;
+}
+
